@@ -38,6 +38,8 @@ Route::get('/percobaan5', 'MyController@tampilanmodelanak');
 
 Route::resource('orangtua', 'OrangtuaController');
 
+Route::resource('anak', 'AnakController');
+
 
 Auth::routes();
 

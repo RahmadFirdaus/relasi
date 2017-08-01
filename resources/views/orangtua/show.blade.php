@@ -1,12 +1,14 @@
 @extends('layouts.app')
 @section('content')
+<div class="container">
+
 <div class="row">
 	<center><h1>Data Orang Tua</h1></center>
 	<div class="panel panel-primary">
 	<div class="panel-heading">Data Orangtua
 	<div class="panel-title pull-right">
 		<a href="{{ URL::previous() }}">Kembali</a>
-	</div></div>
+	</div></div></div>
 
 	<div class="panel-body">
 
@@ -36,10 +38,7 @@
 				<textarea class="form-control" rows="10" name="e" readonly="">{{$ortu->alamat}}</textarea>
 			</div>
 
-
-		</form>
-		
-		
+		</form>	
 	</div>
 	</div>
 </div>
