@@ -33,14 +33,6 @@
 				<textarea class="form-control" rows="10" name="d" readonly="">{{$anak->alamat}}</textarea>
 			</div>
 
-			<div class="form-group">
-				<label class="control-lable">Nama Anak</label>
-				@foreach($ortu as $data)
-				{{$data->nama}}
-				@endforeach
-			</div>
-
-
 		</form>	
 	</div>
 	</div>
